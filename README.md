@@ -1,0 +1,1 @@
+{"code":{"python":{"value":"# string is palindrome\r\n\r\nstr = 'wfpd'\r\n\r\nl = len(str)\r\n\r\ntest = True\r\n\r\nfor i in range(len(str)//2):\r\n       if(str[i]!=str[-(i+1)]):\r\n          test = False\r\n          break\r\n\r\nprint(test)"},"typescript":{"value":"\r\n"}},"language":"python"}
